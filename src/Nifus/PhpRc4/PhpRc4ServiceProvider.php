@@ -18,7 +18,10 @@ class PhpRc4ServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-
+        $this->package('nifus/PhpRc4');
+        $this->app['rc4'] = $this->app->share(function () {
+            return new RC4();
+        });
     }
 
 	/**

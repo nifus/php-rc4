@@ -14,7 +14,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+ class RC4
+ {
   /**
    * A PHP implementation of RC4 based on the original C code from
    * the 1994 usenet post:
@@ -80,5 +81,4 @@
       }
       return $data_str;
    }
-
-?>
+ }
