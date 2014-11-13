@@ -32,7 +32,7 @@ class PhpRc4ServiceProvider extends ServiceProvider {
 	}
     public function boot()
     {
-        
+
     }
 
 }

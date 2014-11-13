@@ -1,5 +1,5 @@
 {
-    "name": "nifus/users",
+    "name": "nifus/php-rc4",
     "description": "",
     "authors": [
         {
@@ -8,16 +8,15 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        //"php": ">=5.3.0"
     },
     "autoload": {
         "classmap": [
-            "src/models",
-            "src/controllers"
+            "src/classes"
         	
 	],
         "psr-0": {
-            "Nifus\\Users": "src/"
+            "Nifus\\PhpRc4": "src/"
         }
     },
 
